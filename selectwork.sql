@@ -20,4 +20,10 @@ from Customers
 -- Almanyadaki musterilerin listesi
 select * 
 from Customers 
-where Country='Germany'
+where Country='Germany'and ciTY='Berlin'
+
+SELECT * FROM products;
+SELECT * from suppliers;
+select * from Categories;
+SELECT * FROM products where category_id=1
+select * from orders;
